@@ -1,0 +1,96 @@
+.Login-body {
+  text-align: center;
+  display:flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background: linear-gradient(269.26deg,#4fbec2 6.59%,#3643d1 80.04%);
+  padding-left: 150px;
+}
+
+.auth-form-container, .login-form, .register-form{
+ 
+  display: flex;
+  flex-direction: column;
+ 
+  }
+  .auth-form-container
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+box-shadow:  10px -10px 20px #4387c8,
+             -19px 19px 30px #1f2ed5;
+}
+
+@media screen and (min-width:600px) {
+  .auth-form-container{
+    padding:5rem;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+  
+  
+}
+
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border:none;
+  border-radius: 10px;
+}
+
+/* butto{
+  border:none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #0c0c0c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+} */
+
+.link-btn{
+  background: none;
+  color:rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.Login-name{
+  color: white ;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  
+}
+
+.Email-btn{
+ 
+  font-family: "Montserrat", sans-serif;
+/* font-weight: bold; */
+}
+
+.l-img{
+  
+
+
+ padding-left: 200px;
+ padding-bottom: 200px;
+  width: 500px;
+  height: 500px;
+}
+
+.content{
+  padding-top:250px ;
+  padding-right: 200px;
+}

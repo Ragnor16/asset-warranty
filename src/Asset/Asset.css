@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+}
+.Asset {
+  padding-left: 50px;
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.container {
+  
+  top: 50%;
+  left: 50%;
+  max-height: 600px;
+  overflow-y: scroll;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table {
+  margin-bottom: 70px;
+  width: 250px;
+  height: 150px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+} 
+ /* tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+} */
+
+.Assettable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-table100 {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .wrap-table100 {
+    width: 100%;
+    display: table;
+  }
+  
+  .table100 {
+    width: 100%;
+    display: table;
+  } 
+  
+   .table100-head th {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+  } 
+  
+  .column1, .column2, .column3, .column4, .column5, .column6 {
+    text-align: left;
+    padding: 15px 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table100-head th {
+      font-size: 14px;
+    }
+    .column1, .column2, .column3, .column4, .column5, .column6 {
+      padding: 10px;
+    }
+  }
+  
